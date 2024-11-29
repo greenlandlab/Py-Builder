@@ -1,0 +1,2 @@
+Type: "dir"
+Commands: "NEW_DIR src  %$thisstringisonlyusedforslpittingandnotanythingelseoritwillerror$% NEW_FILE main.py WITHIN src %$thisstringisonlyusedforslpittingandnotanythingelseoritwillerror$% NEW_FILE error.txt"
