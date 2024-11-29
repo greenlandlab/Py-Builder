@@ -1,0 +1,12 @@
+[Unit]
+Description=Pybuilder Command Startup
+After=network.target
+
+[Service]
+ExecStart=/opt/py-builder/cmd-adjust-pybuilder.sh
+Restart=always
+User=root
+WorkingDirectory=/opt/py-builder
+
+[Install]
+WantedBy=multi-user.target
