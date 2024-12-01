@@ -24,4 +24,6 @@ Commands: "NEW_DIR src  %$thisstringisonlyusedforslpittingandnotanythingelseorit
 ```
 Here you will see a  few keywords inside the commands they are `NEW_FILE` which makes a new file (the name is set to the  string after the keyword) then we have `NEW_DIR` this makes a new folder (same with the file the name is set to the string after the keyword. And lastly `WITHIN` is very simple it just goes into a folder like here the src folder then executes the command. If you want it to be a  folder inside a folder inside a folder then it would be like this `first_folder/second_folder/third_folder`
 
-**Important Notice: It automatically changes the dir to the work dir (which is py-builder-run
+**Important Notice: It automatically changes the dir to the work dir (which is py-builder name_of_work_dir_here package_name_here) so if you make a  new dir called src  imagine the work dir is exe it would put it inside the exe folder but this doesn't apply to WITHIN, because WITHIN only runs the command and exits back to the main work dir**
+
+## 2) Commands
