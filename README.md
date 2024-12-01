@@ -27,3 +27,5 @@ Here you will see a  few keywords inside the commands they are `NEW_FILE` which 
 **Important Notice: It automatically changes the dir to the work dir (which is py-builder name_of_work_dir_here package_name_here) so if you make a  new dir called src  imagine the work dir is exe it would put it inside the exe folder but this doesn't apply to WITHIN, because WITHIN only runs the command and exits back to the main work dir**
 
 ## 2) Commands
+use ```py-builder-install file_path``` after you have done a package and want to use it
+use ```py-builder work_dir_name package_name``` to run a package
