@@ -17,8 +17,11 @@ Yes, it's safe. You can check the source code to see. It might raise some flags 
 # Py-Builder 1.0 Instructions
 Now let's get to the instructions on how to use Py-builder.
 ## 1) Scripting Packages
-To write a Package you will first need to make a file called package_name_here.yaml (replace package_name_here with the package name you want when the app is run). Next you will need  to use this template: 
-```
+To write a Package you will first need to make a file called package_name_here.yaml (replace package_name_here with the package name you want when the app is run). Next, you will need  to use this template: 
+```yaml
 Type: "dir"
-Commmands: "NEW_FILE exe.txt
+Commands: "NEW_DIR src  %$thisstringisonlyusedforslpittingandnotanythingelseoritwillerror$% NEW_FILE main.py WITHIN src %$thisstringisonlyusedforslpittingandnotanythingelseoritwillerror$% NEW_FILE error.txt"
 ```
+Here you will see a  few keywords inside the commands they are `NEW_FILE` which makes a new file (the name is set to the  string after the keyword) then we have `NEW_DIR` this makes a new folder (same with the file the name is set to the string after the keyword. And lastly `WITHIN` is very simple it just goes into a folder like here the src folder then executes the command. If you want it to be a  folder inside a folder inside a folder then it would be like this `first_folder/second_folder/third_folder`
+
+**Important Notice: It automatically changes the dir to the work dir (which is py-builder-run
